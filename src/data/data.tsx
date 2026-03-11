@@ -79,7 +79,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Calisthenics</strong>,
-        playing my <strong className="text-stone-100">playing retro games</strong>, or exploring beautiful { 'Spiritual Books'}
+        playing my <strong className="text-stone-100">playing retro games</strong>, or exploring beautiful Spiritual Books.
         
       </p>
     </>
