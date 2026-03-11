@@ -10,7 +10,7 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
-import kaggleIcon from '../components/Icon/Kaggle';
+// import kaggleIcon from '../components/Icon/Kaggle';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -408,7 +408,7 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/navii-29'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'Kaggle', Icon: kaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'},
+  // {label: 'Kaggle', Icon: kaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'www.linkedin.com/in/shudanshu-rajput-292hk5108'},
   {
     label: 'Instagram',
