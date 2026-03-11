@@ -1,4 +1,4 @@
-import { FC, memo } from 'react';
+import {FC, memo} from 'react';
 import Icon, { IconProps } from './Icon';
 
 const KaggleIcon: FC<IconProps> = memo(props => (
