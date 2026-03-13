@@ -10,8 +10,10 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
-import kaggleIcon from '../components/Icon/Kaggle';
+// import kaggleIcon from '../components/Icon/Kaggle';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import KaggleIcon from '../components/Icon/KaggleIcon';
+
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
@@ -75,12 +77,12 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Mumbai based <strong className="text-stone-100">Python Developer and Data Scientist</strong>, recently
-        worked at <strong className="text-stone-100">Cogoport as Automation Developer</strong> build Workflow for
+        worked at <strong className="text-stone-100">Cogoport as a Automation Developer</strong> build Workflow for
         freights booking till freights delivery across International Markets.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Calisthenics</strong>,
-        playing my <strong className="text-stone-100">playing retro games</strong>, or exploring beautiful Spiritual Books.
+        playing  <strong className="text-stone-100"> retro games</strong>, or exploring beautiful Spiritual /History Books.
         
       </p>
     </>
@@ -302,8 +304,9 @@ export const education: TimelineItem[] = [
     title: 'High School',
     content: (
       <p>
-        Completed my High School with major in Mathematics and Computer Science , there I learnt very profound things
-        that is and will help in life , like interactions , punctuality , honesty , being respectful to others.
+        My high school studies in Math and CS taught me more than just technical skills; they instilled essential values like honesty, 
+        punctuality, and respect, which form the foundation of my professional approach.
+
       </p>
     ),
   },
@@ -313,8 +316,8 @@ export const education: TimelineItem[] = [
     title: 'B.Tech in Electronics and Telecommunications Engineering',
     content: (
       <p>
-        Completed my graduation as an ENTC engineer with a Minor in Data Science,where I learnt about Communications
-        Technologies,Control Systems,Coding with Python.
+        As an ENTC Engineer with a Data Science minor, I specialize in bridging hardware and software through expertise in communication 
+        technologies, control systems, and Python coding.
       </p>
     ),
   },
@@ -327,9 +330,9 @@ export const experience: TimelineItem[] = [
     title: 'Workflow Automation Developer',
     content: (
       <p>
-        • Built automated workflows to streamline freight booking processes, along with their whole journey from source
-        to destination location and standardize business tasks. • Wrote Techinial Documentation on how to build
-        Automated Workflows as task given so that upcoming developer can refer that while building workflows.
+        • Developed end-to-end automated workflows to streamline the freight booking process, standardizing business tasks from source to destination.
+        • Authored comprehensive technical documentation on building and maintaining automated workflows to ensure seamless knowledge transfer for future developers.
+
       </p>
     ),
   },
@@ -340,7 +343,8 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         • Completed customer churn analysis for a utility client (Power Co.) using Python (Pandas, NumPy) and visual
-        analytics. • Engineered and tuned a random forest model achieving 80% recall for churn prediction; delivered
+        analytics. 
+        • Engineered and tuned a random forest model achieving 80% recall for churn prediction; delivered
         concise executive insights.
       </p>
     ),
@@ -408,7 +412,7 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/navii-29'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'Kaggle', Icon: kaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'},
+  // {label: 'Kaggle', Icon: kaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'www.linkedin.com/in/shudanshu-rajput-292hk5108'},
   {
     label: 'Instagram',
@@ -416,4 +420,5 @@ export const socialLinks: Social[] = [
     href: 'https://www.instagram.com/shudanshu_rajput_16?igsh=MXc0NGVhMGJwZmRhcw==',
   },
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://x.com/RajputShud44848'},
+  {label: 'KaggleIcon', Icon: KaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'}
 ];
