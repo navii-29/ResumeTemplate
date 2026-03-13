@@ -8,5 +8,4 @@ const KaggleIcon: FC<IconProps> = memo(props => (
   </Icon>
 ));
 
-
 export default KaggleIcon;

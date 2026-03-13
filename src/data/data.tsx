@@ -10,11 +10,8 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
-// import kaggleIcon from '../components/Icon/Kaggle';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import KaggleIcon from '../components/Icon/KaggleIcon';
-
-// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -29,7 +26,6 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-// import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -39,10 +35,8 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  // TestimonialSection,
   TimelineItem,
 } from './dataDef';
-
 /**
  * Page meta data
  */
@@ -82,8 +76,8 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Calisthenics</strong>,
-        playing  <strong className="text-stone-100"> retro games</strong>, or exploring beautiful Spiritual /History Books.
-        
+        playing <strong className="text-stone-100"> retro games</strong>, or exploring beautiful Spiritual /History
+        Books.
       </p>
     </>
   ),
@@ -304,9 +298,8 @@ export const education: TimelineItem[] = [
     title: 'High School',
     content: (
       <p>
-        My high school studies in Math and CS taught me more than just technical skills; they instilled essential values like honesty, 
-        punctuality, and respect, which form the foundation of my professional approach.
-
+        My high school studies in Math and CS taught me more than just technical skills; they instilled essential values
+        like honesty, punctuality, and respect, which form the foundation of my professional approach.
       </p>
     ),
   },
@@ -316,8 +309,8 @@ export const education: TimelineItem[] = [
     title: 'B.Tech in Electronics and Telecommunications Engineering',
     content: (
       <p>
-        As an ENTC Engineer with a Data Science minor, I specialize in bridging hardware and software through expertise in communication 
-        technologies, control systems, and Python coding.
+        As an ENTC Engineer with a Data Science minor, I specialize in bridging hardware and software through expertise
+        in communication technologies, control systems, and Python coding.
       </p>
     ),
   },
@@ -330,9 +323,9 @@ export const experience: TimelineItem[] = [
     title: 'Workflow Automation Developer',
     content: (
       <p>
-        • Developed end-to-end automated workflows to streamline the freight booking process, standardizing business tasks from source to destination.
-        • Authored comprehensive technical documentation on building and maintaining automated workflows to ensure seamless knowledge transfer for future developers.
-
+        • Developed end-to-end automated workflows to streamline the freight booking process, standardizing business
+        tasks from source to destination. • Authored comprehensive technical documentation on building and maintaining
+        automated workflows to ensure seamless knowledge transfer for future developers.
       </p>
     ),
   },
@@ -343,8 +336,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         • Completed customer churn analysis for a utility client (Power Co.) using Python (Pandas, NumPy) and visual
-        analytics. 
-        • Engineered and tuned a random forest model achieving 80% recall for churn prediction; delivered
+        analytics. • Engineered and tuned a random forest model achieving 80% recall for churn prediction; delivered
         concise executive insights.
       </p>
     ),
@@ -413,12 +405,12 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/navii-29'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   // {label: 'Kaggle', Icon: kaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'www.linkedin.com/in/shudanshu-rajput-292hk5108'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/shudanshu-rajput-292hk5108'},
   {
     label: 'Instagram',
     Icon: InstagramIcon,
     href: 'https://www.instagram.com/shudanshu_rajput_16?igsh=MXc0NGVhMGJwZmRhcw==',
   },
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://x.com/RajputShud44848'},
-  {label: 'KaggleIcon', Icon: KaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'}
+  {label: 'KaggleIcon', Icon: KaggleIcon, href: 'https://www.kaggle.com/shudanshurajput'},
 ];
